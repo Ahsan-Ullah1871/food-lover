@@ -1,0 +1,154 @@
+body{
+    background-color: #28282D;
+    font-family: 'Bodoni Moda', serif;
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+}
+/* nav */
+ul>li {
+    list-style: none;
+    padding: 5px;
+   
+}
+.nav-button a{
+ text-decoration: none;
+ color: white;
+
+
+}
+.nav-button li:hover{
+    background-color: goldenrod;
+    border-radius: 2px;
+    
+}
+.bg-food{
+    background-image: url(image/3x/1stback3.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.contact{
+    background-color: rgba(0, 0, 0, 0.644);
+    color: cornsilk;
+}
+/* About */
+.food-back2 img{
+    width: 400px;
+    margin-left:5% ;
+}
+.about-text{
+    margin-top: 8em;
+    color: rgb(255, 255, 255);
+}
+
+/*  food Quality  */
+.shape{
+    height: 600px;
+    background-image: url(image/3x/shape3.png),url(image/3x/shape2.png);
+    background-repeat: no-repeat;
+    background-size:  auto;
+    background-position:bottom left, right;
+}
+.food-quality{
+    max-width: 25em;
+    padding: 10px;
+    position: relative;
+    top: 10em;
+    left: 1em;
+    background-color: rgba(2, 2, 1, 0.691);
+ }
+ /* Gallery */
+ .gallery img{
+     display: block;
+   padding: 1em;
+   margin: 0 auto;
+ }
+
+ /* Enjoy Our Food */
+ .food-enjoy{
+     height: 300px;
+     background-image: url(image/3x/back4.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+
+ }
+
+ .text-enjoy{
+     width: 30em;
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;  }
+
+  /* our menu */
+  .food-card-footer{
+      border: 0;
+      background-color: rgb(238, 144, 37);
+      font-size: 20px;
+   }
+
+ .food-card-footer:hover{
+    background-color: goldenrod;
+    font-size: 25px;
+  }
+/* Enjoy Best Meal */
+.enjoy-meal{
+    background-image: url(image/3x/shape4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-meal{
+    margin-top: 8em;
+    margin-right: 3em;
+}
+/* footer */
+.link img{
+    margin-left: 1em;
+}
+
+
+/* responsive */
+@media (max-width: 760px){
+   .nav1{
+         display: block;
+    }
+
+    .food-back2 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .about{
+     box-shadow: rgb(245, 240, 232) 10px 10px 30px;
+       
+    }
+    .about-text{
+        margin-top: 0;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    .food-enjoy{
+        height: 400px;
+   
+    }
+    .text-enjoy{
+        width: 20em;
+
+
+    }
+    .gallery img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+
+     .text-meal{
+        margin-top: 0;
+        margin-right: 0;
+         text-align: center;
+         padding: 5px;
+     }
+
+}
+/* end */
